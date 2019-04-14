@@ -11,7 +11,7 @@ public class LosAngeles extends City{
 	double getAnnualTaxes() {
 		double d = population * growthRate;
 		double e = growthRate/2;
-		return d+=e;
+		return d*e;
 	}
 	
 }

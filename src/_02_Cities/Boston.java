@@ -10,8 +10,7 @@ public class Boston extends City {
 	double getAnnualTaxes() {
 		double b = population * growthRate;
 		double c = 0.5 * population;
-		b+=c;
-		return b;
+		return b+=c;
 	}
 
 }
